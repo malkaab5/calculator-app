@@ -17,6 +17,7 @@ def divide(x, y): # function to divide two numbers.
     else:
         return x / y
 
+
 def calculator():
     print("Calculator App")
     print("Choose an operation to perform:")
@@ -26,7 +27,7 @@ def calculator():
     print("4. Divide")
 
   
-    user_choice = input("Enter choice (1/2/3/4): ")   # Ask user for input
+    user_choice = input("Enter choice [1/2/3/4]: ")   # Ask user for input
 
     if user_choice in ['1', '2', '3', '4']:
         num_1 = int(input("Enter first number: "))
